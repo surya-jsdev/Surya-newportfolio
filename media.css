@@ -226,7 +226,6 @@
     }
 
     .project-01::before {
-        border-radius: none;
         position: absolute;
         content: "";
         left: 0;
