@@ -635,7 +635,6 @@ footer{
     height: 20vh;
     display: flex;
     align-items:flex-end;
-    border-radius:0 50PX 50PX 0;
 }
 footer :first-child{
     margin: 0 0 0 20px;
