@@ -118,6 +118,27 @@
         transition: 0.5s all;
     }
 
+    .homecontent .highlight {
+        color: #ff9800;
+        border-bottom: 3px solid #ff9800;
+        font-size: 1.5em;
+        font-family: "Pompiere", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        display: inline-block;
+        animation: slide 2s ease-in-out 1 alternate;
+    }
+
+    @keyframes slide {
+        from {
+            transform:scale(0.5);
+        }
+
+        to {
+            transform:scale(1);
+        }
+    }
+
     /* service section */
     .Services_section {
         width: 100%;
