@@ -266,7 +266,7 @@ section>h2 {
     top: -35px;
     width: 100px;
     height: 100px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvQ_A1YpPDcscDaiVTYKnCVn2foc3piDKWXg&s") no-repeat center/cover;
+    background: url("./image/service -logo1.jpg") no-repeat center/cover;
 }
 
 .card .logo2 {
@@ -277,7 +277,7 @@ section>h2 {
     top: -35px;
     width: 100px;
     height: 100px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzqcy-gNQoNZ_2baq9Gay7L64Wzxzgg7d-iw&s") no-repeat center/cover;
+    background: url("./image/skill-icons/responsive-icon.jpg") no-repeat center/cover;
 }
 
 .card .logo3 {
@@ -288,7 +288,7 @@ section>h2 {
     top: -35px;
     width: 100px;
     height: 100px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRKDWViOm79zLNaPZaeWUuZ9SBF4Qh7lVm6Q&s") no-repeat center/cover;
+    background: url("./image/service-logo3.jpg") no-repeat center/cover;
 }
 
 
