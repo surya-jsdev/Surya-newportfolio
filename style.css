@@ -414,7 +414,7 @@ section>h2 {
 .project-01 {
     display: block;
     margin: 30px 10px;
-    background: url("https://images.unsplash.com/photo-1762498322297-10a7035e9334?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=500") no-repeat center/cover;
+    background: url("./image/project1.png") no-repeat center/cover;
     min-width: 25%;
     height: 500px;
     border-radius: 10%;
@@ -426,13 +426,45 @@ section>h2 {
     position: absolute;
     content: "";
     left: 0;
-    background-color: #04040490;
+    background-color: #04040451;
     width: 100%;
     height: 500px;
     border-radius: 10%;
 }
 
-.project-link{
+.project-02 {
+    display: block;
+    margin: 30px 10px;
+    background: url("./image/BMI.jpg") no-repeat center/cover;
+    min-width: 25%;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.project-02::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    background-color: #04040451;
+    width: 100%;
+    height: 500px;
+    border-radius: 10%;
+}
+
+.project-03 {
+    display: block;
+    margin: 30px 10px;
+    background: url("./image/movie\ finder.png") no-repeat center/cover;
+    min-width: 25%;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.project-link {
     position: absolute;
     bottom: 25px;
     right: 20px;
@@ -442,10 +474,6 @@ section>h2 {
     border: 1px solid #fffefe;
     padding: 5px;
     transition: 0.5s all;
-}
-
-.project :hover {
-    background-color: #1b9cc760;
 }
 
 /* aboutme */
@@ -628,17 +656,20 @@ section>h2 {
     box-shadow: 0 0 5px 5px rgba(3, 107, 131, 0.541);
     border: none;
 }
+
 /* footer */
-footer{
+footer {
     background-color: #181717;
     color: white;
     height: 20vh;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
 }
-footer :first-child{
+
+footer :first-child {
     margin: 0 0 0 20px;
 }
-footer p{
+
+footer p {
     padding: 10px;
 }

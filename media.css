@@ -258,7 +258,7 @@
     .project-02 {
         display: block;
         margin: 30px 10px;
-        background: url("./image/bmi-bg.avif") no-repeat center/cover;
+        background: url("./image/BMI.jpg") no-repeat center/cover;
         min-width: 300px;
         height: 300px;
         position: relative;
@@ -274,6 +274,17 @@
         border-radius: 10px;
         min-width: 300px;
         height: 300px;
+    }
+
+    .project-03 {
+        display: block;
+        margin: 30px 10px;
+        background: url("./image/movie\ finder.png") no-repeat center/cover;
+        min-width: 300px;
+        height: 300px;
+        position: relative;
+        border-radius: 10px;
+        transition: all 0.3s;
     }
 
     .aboutme {
