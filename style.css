@@ -13,7 +13,7 @@ body {
 /* Header styling */
 header {
     background-color: #0c74977a;
-    width: 100%;
+    min-width: 100%;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -197,7 +197,7 @@ section>h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 80vh;
     position: relative;
 }
 
